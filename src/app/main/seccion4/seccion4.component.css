@@ -1,0 +1,29 @@
+.seccion4 {
+  height: auto;
+  margin-bottom: 65px;
+  text-align: center;
+}
+.seccion4 .boton-estilo {
+  background-color: hsl(322, 100%, 55%);
+  color: hsl(207, 100%, 98%);
+  font-size: 25px;
+  font-weight: 600;
+}
+.seccion4 h1 {
+  margin-bottom: 67px;
+}
+.onda-seccion4 {
+  transform: rotate(-180deg);
+}
+
+@media (min-width: 550px) {
+  .onda-seccion4 {
+    background-image: url(../../../assets/images/bg-section-top-desktop-2.svg);
+  }
+}
+@media (max-width: 550px) {
+  .onda-seccion4 {
+    background-image: url(../../../assets/images/bg-section-top-mobile-2.svg);
+    height: 120px;
+  }
+}

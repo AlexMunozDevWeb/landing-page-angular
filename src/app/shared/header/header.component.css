@@ -1,0 +1,96 @@
+Header {
+  padding: 0 5px;
+}
+.mini-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 200px;
+}
+.mini-menu a {
+  color: hsl(322, 100%, 55%);
+  padding: 12px 25px;
+  border: 1px solid hsl(322, 100%, 55%);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.mini-menu .imagen {
+  width: 45%;
+}
+.mini-menu .boton-estilo {
+  display: flex;
+  justify-content: flex-end;
+  width: 45%;
+}
+.contenido-header {
+  margin: 0 auto;
+}
+.contenido-header .texto {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .contenido-header {
+    width: 73%;
+  }
+}
+.texto-boton {
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+.texto-boton a {
+  background-color: hsl(322, 100%, 55%);
+  color: hsl(207, 100%, 98%);
+  font-weight: 600;
+}
+
+@media (min-width: 973px)  {
+  .texto-boton {
+    width: 60%;
+  }
+}
+@media (max-width: 973px) {
+  .texto-boton {
+    width: 90%;
+  }
+}
+.texto-boton p {
+  margin: 50px 0;
+  margin-top: 72px!important;
+}
+.follows {
+  display: flex;
+  justify-content: space-between;
+}
+.follows h1 {
+  font-size: 74px;
+  margin: 0;
+}
+.follows p {
+  color: gray;
+  margin: 0;
+}
+@media (max-width: 500px) {
+  .follows {
+    display: inline;
+    text-align: center;
+  }
+  .follows .messages,
+  .follows .community {
+    width: 48%;
+    margin-bottom: 120px!important;
+    margin: 0 auto;
+  }
+  .messages .img-icon,
+  .community .img-icon {
+      display: flex;
+      align-items: left;
+      margin-bottom: 30px;
+  }
+}
+.imagen-mockup,
+.follows {
+  margin-bottom: 120px;
+}
