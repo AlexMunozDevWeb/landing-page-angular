@@ -26,12 +26,12 @@ section {
 
 @media (min-width: 550px) {
   .onda-seccion1 {
-    background-image: url(/assets/images/bg-section-top-desktop-1.svg);
+    background-image: url(../../../assets/images/bg-section-top-desktop-1.svg);
   }
 }
 @media (max-width: 550px) {
   .onda-seccion1 {
-    background-image: url(/assets/images/bg-section-top-mobile-1.svg);
+    background-image: url(../../../assets/images/bg-section-top-mobile-1.svg);
     height: 150px;
   }
 }
